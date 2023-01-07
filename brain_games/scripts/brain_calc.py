@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from brain_games.games.even import parity
+from brain_games.games.calc import calculator
 
 
 def main():
-    parity()
+    calculator()
 
 
 if __name__ == '__main__':
