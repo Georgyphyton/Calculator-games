@@ -2,6 +2,7 @@
 from random import randint
 from brain_games.games.logic import hello, question, end
 
+
 def parity():
     name = hello()
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -14,5 +15,5 @@ def parity():
         else:
             cor_answer = 'no'
         a += question(ask, cor_answer, name)
-        if a ==3:
+        if a == 3:
             end(name)

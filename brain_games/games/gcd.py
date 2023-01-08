@@ -12,7 +12,7 @@ def game_nod():
         i = randint(1, 100)
         b = randint(1, 100)
         ask = str(i) + ' ' + str(b)
-        cor_answer = gcd(i,b)
+        cor_answer = gcd(i, b)
         a += question(ask, cor_answer, name)
-        if a ==3:
+        if a == 3:
             end(name)

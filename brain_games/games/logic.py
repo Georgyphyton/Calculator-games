@@ -7,6 +7,8 @@ def hello():
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name)
     return name
+
+
 def question(ask, cor_answer, name):
     print('Question: ' + ask)
     answer = prompt.string('Your answer: ')
@@ -18,6 +20,7 @@ def question(ask, cor_answer, name):
         print("Correct answer was '" + str(cor_answer) + "'.")
         print("Let's try again, " + name + "!")
         return 5
+
+
 def end(name):
     print('Congratulations, ' + name + '!')
-
